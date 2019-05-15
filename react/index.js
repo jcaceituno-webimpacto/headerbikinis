@@ -42,7 +42,7 @@ export default class HeaderBikinis extends Component {
             <div className="flex justify-center">
                 <img src={image}/>
 
-                <ExtensionPoint id="header-topbar" />
+                <ExtensionPoint id="topbar" />
 
             </div>
         )
