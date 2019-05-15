@@ -1,24 +1,34 @@
 {
   "vendor": "webimpacto",
-  "name": "headerbikinis",
+  "name": "header",
   "version": "1.0.0",
-  "title": "HeaderBikinis",
-  "description": "Componente HeaderBikinis",
-  "defaultLocale": "en-EN",
+  "title": "Header Bikinis",
+  "defaultLocale": "pt-BR",
+  "description": "The VTEX Store Header component",
   "builders": {
-    "store": "0.x",
     "react": "3.x",
+    "store": "0.x",
     "messages": "1.x"
   },
   "mustUpdateAt": "2019-04-02",
+  "categories": [],
+  "registries": [
+    "smartcheckout"
+  ],
   "scripts": {
-    "prereleasy": "bash lint.sh",
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.telemarketing": "2.x",
+    "vtex.minicart": "2.x",
+    "vtex.login": "2.x",
+    "vtex.menu": "2.x",
+    "vtex.category-menu": "2.x",
     "vtex.store-components": "3.x",
-    "vtex.slider": "0.x",
     "vtex.store-icons": "0.x",
+    "vtex.rich-text": "0.x",
+    "vtex.store-drawer": "0.x",
     "webimpacto.topbar": "1.x"
   }
 }

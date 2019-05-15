@@ -25,5 +25,5 @@
     "enable": false
   },
   "exclude": ["node_modules"],
-  "include": ["./typings/*.d.ts", "./**/*.tsx", "HeaderBikinis.js"]
+  "include": ["./typings/*.d.ts", "./**/*.tsx", "index.js"]
 }
