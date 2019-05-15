@@ -1,0 +1,6 @@
+{
+  "headerbikinis": {
+    "component": "HeaderBikinis",
+    "allowed": ["topbar"]
+  }
+}
