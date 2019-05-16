@@ -29,6 +29,8 @@
     "vtex.store-icons": "0.x",
     "vtex.rich-text": "0.x",
     "vtex.store-drawer": "0.x",
-    "webimpacto.topbar": "1.x"
+    "webimpacto.topbar": "1.x",
+    "webimpacto.minicartjc": "1.x",
+    "webimpacto.menujc":"1.x"
   }
 }

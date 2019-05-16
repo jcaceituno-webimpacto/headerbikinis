@@ -20,7 +20,9 @@
       "unstable--header-layout.mobile",
       "unstable--header-layout.desktop-scroll",
       "unstable--header-layout.mobile-scroll",
-      "topbar"
+      "topbar",
+      "minicartjc",
+      "menujc"
     ],
     "component": "index"
   },
@@ -29,7 +31,9 @@
     "allowed": [
       "header-row",
       "header-border",
-      "topbar"
+      "topbar",
+      "minicartjc",
+      "menujc"
     ],
     "component": "Layout",
     "composition": "children"
@@ -58,7 +62,9 @@
       "header-spacer",
       "rich-text",
       "drawer",
-      "topbar"
+      "topbar",
+      "minicartjc",
+      "menujc"
     ],
     "component": "Row",
     "composition": "children"
@@ -71,8 +77,7 @@
   "unstable--header-layout": {
     "allowed": [
       "unstable--header-row",
-      "unstable--header-border",
-      "topbar"
+      "unstable--header-border"
     ],
     "component": "Layout",
     "composition": "children"
@@ -97,8 +102,7 @@
       "unstable--menu",
       "theme",
       "user-address",
-      "_",
-      "topbar"
+      "_"
     ],
     "component": "Row",
     "composition": "children"

@@ -1,7 +1,8 @@
 {
     "header": {
       "blocks": [
-        "topbar"
+        "topbar",
+        "menujc"
       ]
     },
     "header.full": {
@@ -12,7 +13,13 @@
         "login",
         "category-menu",
         "search-bar",
-        "topbar"
+        "topbar",
+        "menujc"
+      ]
+    },
+    "topbar":{
+      "blocks": [
+        "loginjc"
       ]
     },
     "header-layout.desktop": {
@@ -20,7 +27,8 @@
         "header-row#desktop-1",
         "header-row#desktop-2",
         "header-row#desktop-3",
-        "topbar"
+        "topbar",
+        "menujc"
       ]
     },
     "header-row#desktop-1": {
@@ -38,7 +46,8 @@
         "header-spacer",
         "login",
         "minicart",
-        "topbar"
+        "topbar",
+        "menujc"
       ],
       "props": {
         "sticky": true
@@ -47,7 +56,8 @@
     "header-row#desktop-3": {
       "children": [
         "category-menu",
-        "topbar"
+        "topbar",
+        "menujc"
       ]
     },
     "header-layout.mobile": {
@@ -55,13 +65,15 @@
         "header-row#mobile-1",
         "header-row#mobile-2",
         "header-row#mobile-3",
-        "topbar"
+        "topbar",
+        "menujc"
       ]
     },
     "header-row#mobile-1": {
       "children": [
         "telemarketing",
-        "topbar"
+        "topbar",
+        "menujc"
       ],
       "props": {
         "fullWidth": true
@@ -73,14 +85,16 @@
         "search-bar",
         "login",
         "minicart",
-        "topbar"
+        "topbar",
+        "menujc"
 
       ]
     },
     "header-row#mobile-3": {
       "children": [
         "category-menu",
-        "topbar"
+        "topbar",
+        "menujc"
       ]
     }
   }
