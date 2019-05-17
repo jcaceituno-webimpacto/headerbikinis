@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ExtensionPoint, useRuntime } from 'vtex.render-runtime'
+import { ExtensionPoint, useRuntime, Link } from 'vtex.render-runtime'
 import styles from './styles.css';
 
 
@@ -42,10 +42,10 @@ export default class HeaderBikinis extends Component {
             <div>
                 <ExtensionPoint id="topbar"/>
                 <div className={styles.parent}>
-                    <img src={image} className={styles.child}/>
+                    <Link to="/" className={styles.child}><img src={image}/></Link>
 
                     <div className={styles.child}>
-                        <ExtensionPoint id="minicartjc"/>
+                        <ExtensionPoint id="minicart"/>
                     </div>
                 </div>
 

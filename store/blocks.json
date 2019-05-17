@@ -2,6 +2,7 @@
     "header": {
       "blocks": [
         "topbar",
+        "minicart",
         "menujc"
       ]
     },
